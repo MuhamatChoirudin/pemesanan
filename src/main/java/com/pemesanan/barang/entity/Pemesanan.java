@@ -1,6 +1,8 @@
 package com.pemesanan.barang.entity;
 
-import java.sql.Date;
+
+
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -21,7 +23,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Pemesanan {
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+ //   @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
 	@Column(name = "nama_barang")
